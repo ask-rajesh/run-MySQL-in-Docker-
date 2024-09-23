@@ -7,13 +7,13 @@ def read_data():
             host='127.0.0.1',
             port=3306,
             user='root',  
-            password='rootpassword',  
-            database='mydatabase'
+            password='rootpassword', # put password here 
+            database='mydatabase' # put database name here
         )
         if connection.is_connected():
             print("Connected to MySQL database")
             cursor = connection.cursor()
-            cursor.execute("SELECT * FROM student")
+            cursor.execute("SELECT * FROM student") # put your sql query here
             rows = cursor.fetchall()
             for row in rows:
                 print(row)
