@@ -25,9 +25,10 @@ docker ps
 ```
 ## Access MySQL through terminal
 ```
-docker exec -it my_mysql_container mysql -u root -p
+docker exec -it mysql-container mysql -u root -p
 
 ```
+* You can raplace *mysql-container* with your MySQL container id/ container name. In this case, *mysql-container* will work perfectly.
 * **-u root**: for *root* user.
 * **-p** : for password promt.
 
