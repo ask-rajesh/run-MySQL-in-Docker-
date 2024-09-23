@@ -37,7 +37,7 @@ After running above command, terminal will ask for password. Put your password t
 Great, now you access MySQL.
 
 ## Access MySQL through Python
-install the MySQL driver for Python.
+Install the MySQL driver for Python.
 ```
 pip install mysql-connector-python
 ```
